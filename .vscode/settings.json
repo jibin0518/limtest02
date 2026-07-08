@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "limtest.slnx"
+    "dotnet.defaultSolution": "limtest02.slnx"
 }
