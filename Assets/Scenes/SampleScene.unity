@@ -807,7 +807,7 @@ PrefabInstance:
       addedObject: {fileID: 1029702480}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4156215c5e6d2734283fdb349e5032df, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1029702487}
+      addedObject: {fileID: 1029702481}
   m_SourcePrefab: {fileID: 100100000, guid: 4156215c5e6d2734283fdb349e5032df, type: 3}
 --- !u!4 &1029702475 stripped
 Transform:
@@ -850,7 +850,7 @@ MonoBehaviour:
   - m_Rig: {fileID: 2106274751}
     m_Active: 1
   m_Effectors: []
---- !u!114 &1029702487
+--- !u!114 &1029702481
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -859,10 +859,46 @@ MonoBehaviour:
   m_GameObject: {fileID: 1029702476}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a929318156550df44a5d9d9b0c9e80d7, type: 3}
+  m_Script: {fileID: 11500000, guid: 31f39857c8be60747b80dbb78569b87f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AnimeContor
-  currentState: 2
+  m_EditorClassIdentifier: Assembly-CSharp::AnimeContor_Combined
+  currentState: 0
+  idleSpeed: 1.5
+  idleBodyAngle: 1.5
+  idleBodyUpDown: 0.03
+  idleHandBobAmount: 0.015
+  idleRightHandOffset: {x: 0, y: -0.08, z: 0.24}
+  idleLeftHandOffset: {x: -0.05, y: -0.05, z: 0.18}
+  idleRightFootOffset: {x: 0.2, y: -0.795, z: 0.02}
+  idleLeftFootOffset: {x: -0.2, y: -0.795, z: 0.02}
+  legForward: 0.28
+  legUp: 0.15
+  bodyBob: 0.01
+  bodyLean: 3
+  runSpeed: 4
+  runFootSideDistance: 0.12
+  runFootHeight: -0.795
+  runFootZ: 0.02
+  runRightHandOffset: {x: 0.03, y: -0.03, z: 0.28}
+  runLeftHandOffset: {x: -0.18, y: -0.22, z: 0.05}
+  runRightHandRot: {x: 0, y: 0, z: 0}
+  runLeftHandRot: {x: 0, y: 0, z: 0}
+  runHandBobAmount: 0.015
+  dashDuration: 0.18
+  dashPrepareRatio: 0.35
+  dashMoveDistance: 2
+  dashPrepareLean: 40
+  dashPrepareDown: 0.08
+  dashPrepareRightHand: {x: 0.03, y: -0.02, z: 0.22}
+  dashPrepareLeftHand: {x: -0.18, y: -0.15, z: -0.18}
+  dashPrepareRightFoot: {x: 0.08, y: -0.8, z: 0.15}
+  dashPrepareLeftFoot: {x: -0.08, y: -0.8, z: -0.35}
+  dashLaunchLean: 55
+  dashLaunchDown: 0.04
+  dashLaunchRightHand: {x: 0.12, y: -0.05, z: 0.35}
+  dashLaunchLeftHand: {x: -0.22, y: -0.12, z: -0.28}
+  dashLaunchRightFoot: {x: 0.05, y: -0.78, z: 0.45}
+  dashLaunchLeftFoot: {x: -0.03, y: -0.8, z: -0.05}
 --- !u!1 &1148950563
 GameObject:
   m_ObjectHideFlags: 0
